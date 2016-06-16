@@ -17,8 +17,8 @@ class Inventory(object):
 		self.stock_name = stock_name
 		self.stock_qty = stock_qty
 
-	def dec_stock(self, qty):
-		self.stock_qty -= qty
+	#def dec_stock(self, qty):
+		#self.stock_qty -= qty
 
 	def inc_stock(self, qty):
 		self.stock_qty += qty
