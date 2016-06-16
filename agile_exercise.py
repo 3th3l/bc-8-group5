@@ -25,7 +25,7 @@ class Inventory(object):
 
 emp1 = Employee("Ethel Jackie Hannah", "Female", 0, 50000)
 
-inv1 = Inventory(00011, "Omo 1 KG", 33)
+inv1 = Inventory(00021, "Omo 1 KG", 33)
 
 print inv1.stock_qty
 print emp1.num_transaction
