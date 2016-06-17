@@ -1,15 +1,24 @@
 class Employee(object):
-	def __init__(self, name, gender, num_transaction, salary):
+	def __init__(self, id, name, gender, num_transaction, salary):
 		self.name = name
 		self.gender = gender
 		self.num_transaction = num_transaction
 		self.salary = salary
 
-	def track_tran(self, num):
+	def track_tran(self, id):
 		self.num_transaction += num
 
 	def review_sal(self, num_tran):
 		self.salary *= num_tran/10
+
+class transaction(object):
+	def __init__(trans_id, agent_id, item_id, qtty):
+		self.trans_id = trans_id
+		self.agent_id = agent_id
+		self.item_id = item_id
+		self.qtty = qtty
+
+	def 
 
 class Inventory(object):
 	def __init__(self, stock_id, stock_name, stock_qty):
